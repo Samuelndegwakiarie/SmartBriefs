@@ -34,11 +34,8 @@ Use queued jobs for API requests (async processing).
 
 Store AI responses per brief for later reference.
 
-Feature 4 (ignored as per instructions):
 
-(Activity log omitted for MVP scope.)
-
-Feature 5: Admin View
+Feature 4: Admin View
 
 Restricted to admin users.
 
@@ -48,14 +45,10 @@ List of all users
 
 List of all briefs
 
-Optional if time permits (target Day 4).
-
-Feature 6: Small REST API
+Feature 5: Small REST API
 
 Public REST endpoints for fetching briefs (for future frontend/mobile app).
 
-Example endpoints:
 
-GET /api/briefs → list all briefs
 
 GET /api/briefs/{id} → single brief with AI responses
