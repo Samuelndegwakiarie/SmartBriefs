@@ -28,10 +28,13 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+<<<<<<< HEAD
     'gemini' => [
         'key' => env('GEMINI_API_KEY'),
     ],
 
+=======
+>>>>>>> d6a9fd3dfce3c7e14c12febe8a5c360c6f8e7009
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),

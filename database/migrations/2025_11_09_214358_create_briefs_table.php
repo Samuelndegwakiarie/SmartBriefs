@@ -24,10 +24,15 @@ return new class extends Migration
             // Optional file attachment (like a doc, image, etc.)
             $table->string('attachment_path')->nullable();
 
+<<<<<<< HEAD
             // AI-generated fields
             $table->text('ai_summary')->nullable();
             $table->json('ai_tags')->nullable();
             $table->json('ai_rewrite')->nullable();
+=======
+            // AI-generated fields (optional for later)
+            $table->json('ai_responses')->nullable();
+>>>>>>> d6a9fd3dfce3c7e14c12febe8a5c360c6f8e7009
 
             $table->timestamps();
         });

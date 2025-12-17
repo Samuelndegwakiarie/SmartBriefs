@@ -26,7 +26,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+<<<<<<< HEAD
         'is_admin',
+=======
+>>>>>>> d6a9fd3dfce3c7e14c12febe8a5c360c6f8e7009
     ];
 
     /**
@@ -47,6 +50,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
+<<<<<<< HEAD
         'is_admin' => 'boolean',
+=======
+>>>>>>> d6a9fd3dfce3c7e14c12febe8a5c360c6f8e7009
     ];
 }
