@@ -11,7 +11,7 @@ Feature 2: Create / Read / Update / Delete Briefs
 Each brief includes:
 
 Title
-
+ 
 Content
 
 Optional attachment (file upload)
